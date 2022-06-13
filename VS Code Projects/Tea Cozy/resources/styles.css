@@ -1,0 +1,142 @@
+/*GLOBAL STYLES*/
+*{
+    font-family:  Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+h4{
+    margin: 5px 0px;
+    font-size: 0.8em;
+}
+
+
+/*PARTICULAR SYLES*/
+
+
+/*HEADER*/
+header{
+    height: 69px;
+    width: 100%;
+    /*background-color: blue;*/
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    z-index: 99;
+    border-bottom: 1px solid seashell;
+}
+
+header > div{
+    display: inline-flex;
+    align-items: center;
+}
+
+#logo{
+    margin-left: 10px;
+}
+
+#logo > img{
+    height: 50px;
+}
+
+#menu{
+    justify-content: flex-end;
+    width: 100%;
+}
+#menu > a {
+    padding: 0 0.2em;
+}
+
+/*BODY*/
+
+body{
+    margin-top: 69px;
+    width: 100%;
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#mission{
+    height: 700px;
+    background-image: url(Images/img-mission-background.jpg);
+    align-items: center;
+    display: flex;
+}
+#mission > div{
+    width: 100%;
+}
+#mission > div > *{
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+#highlight{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+.photoG3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.photoG3 img{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.photoG3 > div{
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+    
+}
+
+#locations{
+    height: 500px;
+    background-image: url(Images/img-locations-background.jpg);
+    background-size: cover;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+#locations > h1{
+    background-color: transparent;
+    text-align: center;
+}
+
+#locations-cards{
+    display: flex;
+    background-color: transparent;
+    justify-content: space-around;
+}
+
+#locations-cards > div{
+    width: 300px;
+    text-align: center;
+    
+}
+
+/*FOOTER*/
+footer{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer > *{
+    text-align: center;
+}
